@@ -10,13 +10,7 @@ lerna-debug.log*
 node_modules
 .DS_Store
 
-#dist
-public
-src
-index.html
-package-lock.json
-package.json
-vite.config.js
+dist
 .vscode
 
 dist-ssr
