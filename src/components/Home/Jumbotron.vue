@@ -13,7 +13,7 @@ export default {
 }
 </script>
 <template>
-    <div class="row row-bg mt-5">
+    <div class="row row-bg mt-5 jumbotron-section">
         <transition name="slide-fade">
             <div class="col" v-if="show">
                 <div class="p-5 mb-4 rounded-3 jumbotron-text">
@@ -89,10 +89,10 @@ export default {
         padding: 0;
         margin: 0;
     }
-    .row {
+    /*.jumbotron-section {
         display: flex;
         flex-direction: column-reverse;
-    }
+    }*/
     .jumbotron-text {
         margin-top: 1.3em;
     }
@@ -106,7 +106,7 @@ export default {
         text-align: justify;
         letter-spacing: .001em;
     }
-    button {
+    .cta {
         margin: 0 auto;
         font-size: 1em !important;
         display: flex !important;

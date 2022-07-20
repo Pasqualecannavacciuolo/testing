@@ -17,9 +17,9 @@
       damping: 25,
       mass: 0.5,
     },
-  }" class="row jumbotron-text mt-5">
+  }" class="row mt-5 services-section">
         <div class="col">
-            <div class="p-5 mb-4 rounded-3 jumbotron-text">
+            <div class="p-5 mb-4 rounded-3 ">
                 <h1>Cosa imparerai</h1>
                 <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
                     <div class="col">
@@ -69,6 +69,9 @@
 </template>
 
 <style>
+.services-section {
+    background-color: #fff;
+}
 .card-img-top {
     margin: auto auto;
     background-position: center;
@@ -79,7 +82,4 @@
 .card {
     border: none;
 }
-
- 
-
 </style>
