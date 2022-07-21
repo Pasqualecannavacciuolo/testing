@@ -73,7 +73,7 @@ export default {
         <h1>I migliori professionsti sulla piattaforma</h1>
         <div class="card-group">
             <div class="card psycologist-card" v-for="psycologist in top_rated_psycologist" key="card">
-                <img :src="psycologist.immagine" class="card-img-top"
+                <img :src="psycologist.immagine"
                     alt="immagine psicologo tra i migliori sulla piattaforma">
                 <div class="card-body">
                     <h5 class="card-title">{{ psycologist.nome }}</h5>
