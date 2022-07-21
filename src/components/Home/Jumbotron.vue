@@ -17,7 +17,7 @@ export default {
         <transition name="slide-fade">
             <div class="col" v-if="show">
                 <div class="p-5 mb-4 rounded-3 jumbotron-text">
-                    <div class="container-fluid py-5">
+                    <div class="container-fluid py-5 hero-text">
                         <h1 class="display-4 fw-bold">Benvenuto</h1>
                         <p class="col-md-12">
                             Hai appena affrontato il primo passo verso la serenità mentale, il primo passo rientra
@@ -95,6 +95,12 @@ export default {
     }*/
     .jumbotron-text {
         margin-top: 1.3em;
+    }
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
     }
     h1 {
         font-size: 2.5em !important;
