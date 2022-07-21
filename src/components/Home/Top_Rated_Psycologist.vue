@@ -9,11 +9,11 @@ export default {
                     nome: 'Pasquale Cannavacciuolo',
                     specializzazione: 'Trauma infantile',
                     indice_gradimento: 4.7,
-                    immagine: 'public/Dottori/pako_doctor.png',
+                    immagine: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '../../../src/assets/reward.png'
+                            immagine_premio: 'prod/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
@@ -29,7 +29,7 @@ export default {
                     nome: 'Maria giovanna Guadagno',
                     specializzazione: 'Disturbo cognitivo del linguaggio',
                     indice_gradimento: 4.9,
-                    immagine: '../../../src/assets/female_doctor.png',
+                    immagine: 'https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhY2UlMjBwb3J0cmFpdHxlbnwwfHwwfHw%3D&w=1000&q=80',
                     premi: [
                         {
                             nome: 'Professionista premiato',
@@ -53,7 +53,7 @@ export default {
                     nome: 'Vincenzo Pugliese',
                     specializzazione: 'PSD e traumi di guerra',
                     indice_gradimento: 4.8,
-                    immagine: '../../../src/assets/vincenzo_doctor.png',
+                    immagine: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&w=1000&q=80',
                     premi: [
                         {
                             nome: 'Professionista premiato',
