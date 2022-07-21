@@ -1,4 +1,5 @@
 <script>
+import { onMounted } from 'vue'
 
 export default {
     data() {
@@ -8,19 +9,19 @@ export default {
                     nome: 'Pasquale Cannavacciuolo',
                     specializzazione: 'Trauma infantile',
                     indice_gradimento: 4.7,
-                    immagine: 'src/assets/pako_doctor.png',
+                    immagine: '../../../src/assets/pako_doctor.png',
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '@/assets/reward.png'
+                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
-                            immagine_premio: '@/assets/smartphone.png'
+                            immagine_premio: '../../../src/assets/smartphone.png'
                         },
                         {
                             nome: 'Amato dai pazienti',
-                            immagine_premio: '@/assets/medal.png'
+                            immagine_premio: '../../../src/assets/medal.png'
                         }
                     ]
                 },
@@ -28,23 +29,23 @@ export default {
                     nome: 'Maria giovanna Guadagno',
                     specializzazione: 'Disturbo cognitivo del linguaggio',
                     indice_gradimento: 4.9,
-                    immagine: '@/assets/female_doctor.png',
+                    immagine: '../../../src/assets/female_doctor.png',
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '@/assets/reward.png'
+                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
-                            immagine_premio: '@/assets/smartphone.png'
+                            immagine_premio: '../../../src/assets/smartphone.png'
                         },
                         {
                             nome: 'Amato dai pazienti',
-                            immagine_premio: '@/assets/medal.png'
+                            immagine_premio: '../../../src/assets/medal.png'
                         },
                         {
                             nome: 'Migliori recensioni',
-                            immagine_premio: '@/assets/star.png'
+                            immagine_premio: '../../../src/assets/star.png'
                         }
                     ]
                 },
@@ -52,15 +53,15 @@ export default {
                     nome: 'Vincenzo Pugliese',
                     specializzazione: 'PSD e traumi di guerra',
                     indice_gradimento: 4.8,
-                    immagine: '@/assets/vincenzo_doctor.png',
+                    immagine: '../../../src/assets/vincenzo_doctor.png',
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '@/assets/reward.png'
+                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
-                            immagine_premio: '@/assets/smartphone.png'
+                            immagine_premio: '../../../src/assets/smartphone.png'
                         }
                     ]
                 }
@@ -160,7 +161,7 @@ export default {
     }
     .p_light {
         font-size: .9em !important;
-        margin-top: 1.5em;
+        margin-top: 1em;
         margin-bottom: 0;
         padding-bottom: 0;
     }
