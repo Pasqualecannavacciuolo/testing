@@ -11,15 +11,12 @@ export default {
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
-                            immagine_premio: '../../../src/assets/smartphone.png'
                         },
                         {
                             nome: 'Amato dai pazienti',
-                            immagine_premio: '../../../src/assets/medal.png'
                         }
                     ]
                 },
@@ -31,19 +28,15 @@ export default {
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
-                            immagine_premio: '../../../src/assets/smartphone.png'
                         },
                         {
                             nome: 'Amato dai pazienti',
-                            immagine_premio: '../../../src/assets/medal.png'
                         },
                         {
                             nome: 'Migliori recensioni',
-                            immagine_premio: '../../../src/assets/star.png'
                         }
                     ]
                 },
@@ -55,11 +48,9 @@ export default {
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
-                            immagine_premio: '../../../src/assets/smartphone.png'
                         }
                     ]
                 }
@@ -100,7 +91,10 @@ export default {
                     <small class="badges">
                         <div class="badge text-dark" v-for="premio in psycologist.premi">
                             <span class="tt" data-bs-placement="top" :title="premio.nome">
-                                <img v-bind:src="premio.immagine_premio" alt="immagine premio">
+                                <img v-if="premio.nome === 'Professionista premiato'" src="@/assets/reward.png" alt="immagine premio">
+                                <img v-else-if="premio.nome === 'Disponibile online'" src="@/assets/smartphone.png" alt="immagine premio">
+                                <img v-else-if="premio.nome === 'Amato dai pazienti'" src="@/assets/medal.png" alt="immagine premio">
+                                <img v-else-if="premio.nome === 'Migliori recensioni'" src="@/assets/star.png" alt="immagine premio">
                             </span>
                         </div>
                     </small>
