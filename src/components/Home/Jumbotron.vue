@@ -16,7 +16,7 @@ export default {
     <div class="row row-bg mt-5 jumbotron-section">
         <transition name="slide-fade">
             <div class="col" v-if="show">
-                <div class="p-5 mb-4 rounded-3 jumbotron-text">
+                <div class="mb-4 rounded-3 jumbotron-text">
                     <div class="container-fluid py-5 hero-text">
                         <h1 class="display-4 fw-bold">Benvenuto</h1>
                         <p class="col-md-12">
@@ -47,6 +47,10 @@ export default {
     background-color: #F94482;
     color: #fff;
     font-weight: 600;
+}
+
+.jumbotron-text {
+    padding: 50px;
 }
 
 /** 
@@ -95,6 +99,7 @@ export default {
     }*/
     .jumbotron-text {
         margin-top: 1.3em;
+        padding: 10px;
     }
     .hero-text {
         display: flex;
