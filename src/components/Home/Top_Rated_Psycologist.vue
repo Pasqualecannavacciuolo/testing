@@ -1,6 +1,4 @@
 <script>
-import { onMounted } from 'vue'
-
 export default {
     data() {
         return {
@@ -13,7 +11,7 @@ export default {
                     premi: [
                         {
                             nome: 'Professionista premiato',
-                            immagine_premio: 'prod/assets/reward.png'
+                            immagine_premio: '../../../src/assets/reward.png'
                         },
                         {
                             nome: 'Disponibile online',
@@ -84,7 +82,7 @@ export default {
         <h1>I migliori professionsti sulla piattaforma</h1>
         <div class="card-group">
             <div class="card psycologist-card" v-for="psycologist in top_rated_psycologist" key="card">
-                <img :src="`${psycologist.immagine}`" class="card-img-top"
+                <img :src="psycologist.immagine" class="card-img-top"
                     alt="immagine psicologo tra i migliori sulla piattaforma">
                 <div class="card-body">
                     <h5 class="card-title">{{ psycologist.nome }}</h5>
@@ -102,7 +100,7 @@ export default {
                     <small class="badges">
                         <div class="badge text-dark" v-for="premio in psycologist.premi">
                             <span class="tt" data-bs-placement="top" :title="premio.nome">
-                                <img :src="premio.immagine_premio" alt="immagine premio">
+                                <img v-bind:src="premio.immagine_premio" alt="immagine premio">
                             </span>
                         </div>
                     </small>
