@@ -127,15 +127,17 @@ export default {
     margin: auto auto;
     background-position: center;
     background-size: cover;
+    width: 250px;
+    height: 250px;
 }
 
-.psycologist-card img {
+/*.psycologist-card img {
     margin: auto auto;
     width: 250px;
     height: 250px;
     background-position: center;
     background-size: cover;
-}
+}*/
 
 .card-footer {
     border-top: none;
