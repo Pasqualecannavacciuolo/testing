@@ -68,7 +68,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .services-section {
     background-color: #fff;
 }

@@ -104,7 +104,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style>
 .p_light {
     font-weight: 200;
     text-align: center;
@@ -121,14 +121,6 @@ export default {
 
 .psycologist-card {
     text-align: center;
-}
-
-.card-img-top {
-    margin: auto auto;
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
 }
 
 .psycologist-card img {
