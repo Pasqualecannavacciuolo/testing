@@ -157,5 +157,8 @@ export default {
         margin-bottom: 0;
         padding-bottom: 0;
     }
+    .badge img {
+        margin: 0 auto;
+    }
 }
 </style>
