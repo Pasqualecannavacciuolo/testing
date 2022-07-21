@@ -119,6 +119,14 @@ export default {
     gap: 5em;
 }
 
+.card-img-top {
+    margin: auto auto;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+
 .psycologist-card {
     text-align: center;
 }
