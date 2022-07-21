@@ -103,7 +103,7 @@ export default {
         justify-content: center;
     }
     h1 {
-        font-size: .5em !important;
+        font-size: 2em !important;
         margin-bottom: 1em;
         text-align: center;
     }
