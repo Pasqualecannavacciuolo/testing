@@ -38,7 +38,7 @@ export default {
     </div>
 </template>
 
-<style>
+<style scoped>
 .jumbotron-text, .row-bg {
     background-color: #fff;
 }
