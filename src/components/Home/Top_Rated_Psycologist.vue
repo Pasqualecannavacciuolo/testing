@@ -124,7 +124,6 @@ export default {
 }
 
 .psycologist-card img {
-    margin: 0 auto;
     width: 250px;
     height: 250px;
     background-position: center;
@@ -163,6 +162,9 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .psycologist-card img {
+        margin: 0 auto;
     }
     
 }
