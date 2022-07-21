@@ -19,7 +19,6 @@ export default {
         element.classList.remove("animate__pulse");
       });
     });
-    
   }
 }
 </script>
