@@ -124,12 +124,12 @@ export default {
 }
 
 .psycologist-card img {
-    margin: auto auto;
+    margin: 0 auto;
     width: 250px;
     height: 250px;
     background-position: center;
     background-size: cover;
-}*/
+}
 
 .card-footer {
     border-top: none;
@@ -159,6 +159,7 @@ export default {
         padding-bottom: 0;
     }
     .card-group {
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
