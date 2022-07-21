@@ -106,7 +106,6 @@ export default {
         font-size: 2.5em !important;
         margin-bottom: 1em;
         text-align: center;
-        margin: 0 auto;
     }
     p {
         font-size: 1em !important;
