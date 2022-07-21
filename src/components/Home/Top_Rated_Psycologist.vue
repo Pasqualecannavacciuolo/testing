@@ -123,12 +123,18 @@ export default {
     text-align: center;
 }
 
+.card-img-top {
+    margin: auto auto;
+    background-position: center;
+    background-size: cover;
+}
+
 .psycologist-card img {
     margin: auto auto;
     width: 250px;
     height: 250px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .card-footer {
