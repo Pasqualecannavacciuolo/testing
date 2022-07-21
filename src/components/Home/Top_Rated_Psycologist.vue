@@ -9,7 +9,7 @@ export default {
                     nome: 'Pasquale Cannavacciuolo',
                     specializzazione: 'Trauma infantile',
                     indice_gradimento: 4.7,
-                    immagine: '@/assets/pako_doctor.png',
+                    immagine: '../../../src/assets/pako_doctor.png',
                     premi: [
                         {
                             nome: 'Professionista premiato',
