@@ -158,6 +158,11 @@ export default {
         margin-bottom: 0;
         padding-bottom: 0;
     }
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
 }
 </style>
