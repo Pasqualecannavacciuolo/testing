@@ -119,19 +119,12 @@ export default {
     gap: 5em;
 }
 
-.card-img-top {
-    margin: auto auto;
-    background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
-}
-
 .psycologist-card {
     text-align: center;
 }
 
 .psycologist-card img {
+    margin: auto auto;
     width: 250px;
     height: 250px;
     background-position: center;
@@ -165,8 +158,6 @@ export default {
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    .badge img {
-        margin: 0 auto;
-    }
+    
 }
 </style>
